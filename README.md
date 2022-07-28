@@ -26,20 +26,21 @@ On-board sensors will be used.
 
 ## Hardware
 
-### ESP32-C3-RUST-BOARD
-The basic use case for this project involves the use of a RUST-BOARD and [ILI9341](https://cdn-shop.adafruit.com/datasheets/ILI9341.pdf) display.
+### ESP32-S2
+This use case involves the use of a ESP32-S2 and [ILI9341](https://cdn-shop.adafruit.com/datasheets/ILI9341.pdf) display.
 
 ### Used pins
 | ILI9341 |    ESP-RUST-BOARD   |
 ----------|---------------------|
-| RST     | GPIO3               |
-| CLK     | GPIO6               |
-| D_C     | GPIO21              |
-| CS      | GPIO20              |
-| MOSI    | GPIO7               |
+| RST     | GPIO4               |
+| CLK     | GPIO36              |
+| D_C     | GPIO2               |
+| CS      | GPIO15              |
+| MOSI    | GPIO35              |
+| BLCT    | GPIO6               |
 <br>
 
-### ESP32-С3-RUST-BOARD with ILI9341 display
+### ESP32-S2 with ILI9341 display
 
 <a data-flickr-embed="true" href="https://www.flickr.com/photos/196173186@N08/52243062815/in/dateposted-public/" title="eep-clock_esp32s2"><img src="https://live.staticflickr.com/65535/52243062815_0486a3fdea_o.png" width="550" height="430" alt="eep-clock_esp32s2"></a>
 
